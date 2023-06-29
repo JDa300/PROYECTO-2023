@@ -1,0 +1,40 @@
+body{
+    background: white;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+img{
+    width: 40%;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    padding: 13px 30px;
+    border-radius: 20px;
+    border: none;
+    background: black;
+    color: white;
+}
+
+
+
+#gif-container {
+  width: 800px;
+  height: 600px;
+  text-align: center;
+  position: relative;
+  background-image: url('gif/500.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+

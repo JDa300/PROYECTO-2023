@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600&display=swap");
+* {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 8rem;
+  overflow-x: hidden;
+}
+
+
+
+body {
+  background: url(https://img.freepik.com/fotos-premium/textura-pizarra-negra-gris-oscuro-alta-resolucion-fondo-pared-piedra-negra-natural_38607-306.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  overflow-x: hidden;
+}
+
+section {
+  padding: 3rem 9%;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.heading h3 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  cursor: pointer;
+  color: #ffffff;
+  border: 0.2rem solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  background: no-repeat;
+  font-size: 1.7rem;
+  padding: 1rem 3rem;
+}
+
+.btn:hover {
+  color: #000;
+  background: #fff;
+}
+
+
+.login .logins{
+  width: 420px;
+  height: 800px;
+  background: black;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 40px 80px;
+  border-radius: 10px;
+}
+
+.login .logins .login-form p{
+    line-height: 1.8;
+    color:var(--light-color);
+    font-size: 1.2rem;
+    padding:.5rem 0;
+}
+
+.login .logins .login-form h3{
+    color:var(--orange);
+    padding-right: .5rem;
+}
+
+.login .logins .login-form a{
+  color: #ffffff;
+}
+
+.login .logins .login-form .btn1{
+     margin-top: 1rem;
+    display: inline-block;
+    padding:.8rem 0.02rem;
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    color:border white;
+    border:.1rem solid var(--black);
+    color:var(--white);
+    cursor: pointer;
+    background: none;
+}
+
+
+.singup .sings{
+  width: 420px;
+  height: 550px;
+  background: black;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 40px 80px;
+  border-radius: 10px;
+}
+
+
+.singup .sings .sing-form a{
+ color: #ffffff;
+}
+
+
+.singup .sings .sing-form p{
+    line-height: 1.8;
+    color:var(--light-color);
+    font-size: 1.2rem;
+    padding:.5rem 0;
+}
+
+.singup .sings .sing-form h3{
+    color:var(--orange);
+    padding-right: .5rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #222020 ;
+  color: #ffffff ;
+  font-family: "Montserrat", sans-serif;
+}

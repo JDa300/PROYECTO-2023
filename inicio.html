@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <title>Iniciar Sesión</title>
+      <link rel="stylesheet" href="inicio.css">
+</head>
+<body>
+
+  <section class="login" id="login">
+   <div class="heading">
+      <h3>INICIO DE SESIÓN</h3>
+   </div>
+
+    <center><div class="logins">
+       <form action="validar.php" method="post" class="login-form">
+        <img src="imagenes/WhatsApp Image 2023-03-02 at 12.35.31 PM.jpeg" width="160PX" height="120px">
+
+         <input type="text" name="usuario" placeholder="Usuario" required pattern="[A-Za-z]+"  minlength="3" maxlength="40" 
+         title="Solo Introduzca letras. Tamaño mínimo: 3. Tamaño máximo: 40" class="btn">
+
+         <input type="password" name="inicio_password" placeholder="contraseña" required pattern="[A-Za-z0-9]+"  minlength="5" maxlength="20"
+         title="Su contraseña debe cumplir con los requisitos establecidos. Tamaño mínimo: 5. Tamaño máximo: 20" class="btn">
+
+         <input type="password" name="inicio_cpassword" placeholder="confirmar contraseña" required pattern="[A-Za-z0-9]+" minlength="5" maxlength="20" 
+         title="Su contraseña debe cumplir con los requisitos establecidos. Tamaño mínimo: 5. Tamaño máximo: 20" required class="btn">
+         <p>¿No tienes cuenta? <a href="registro.html">Crea una ahora</a></p>
+         <center><input type="submit" value="inicio de sesión" class="btn"></center>
+            <br>
+             <p>REGRESAR <a href="barberia.html">click aquí</a></p>
+       
+      
+        </form>
+    </div></center>
+  </section>
+
+
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="dashboard.css">
+    
+  </head>
+  <body>
+    
+<div class="grid-container">
+      
+  <header class="header">
+    <div class="menu-icon" onclick="openSidebar()">
+
+  </header>
+
+    <!--Barra lateral-->
+    <aside id="sidebar">
+      <div class="sidebar-title">
+        <div class="sidebar-brand">
+          <center>
+          <img src="imagenes/logo1.png" alt="logo"  width="160PX" height="120px">
+          </center>
+          <br>
+          <span></span> LERIUS_BARBER
+        </div>
+        <span class="material-icons-outlined" onclick="closeSidebar()">close</span>
+        
+      </div>
+      
+      <ul class="sidebar-list">
+        <li class="sidebar-list-item" onclick="window.location.href='dashboard.html'">
+        
+            Panel de Control
+          </a>
+        </li>
+        
+        <li class="sidebar-list-item" onclick="window.location.href='administrador1.html'">
+          
+           Crear Empleado
+          </a>
+        </li>
+
+    
+        <li class="sidebar-list-item" onclick="window.location.href='encargado.html'">
+          
+            Actualizar Producto
+          </a>
+        </li>
+        <li class="sidebar-list-item" onclick="window.location.href='listados.html'"> 
+          
+            Generar Informes
+          </a>
+        </li>
+       
+        <li class="sidebar-list-item" onclick="window.location.href='barberia.html'">
+          
+              </span> Cerrar Sesión
+          </a>
+        </li>
+      </ul>
+    </aside>
+    <!--acaba la barra lateral-->
+      
+      <main class="main-container">
+        <br><br><br>
+        <div class="main-cards">
+          
+          <div class="card">
+            <div >
+              <center>
+                <h1>PRODUCTOS</h1>
+              </center>
+            
+            </div>
+            <center>
+              <h1>300</h1>
+            </center>
+            
+          </div>
+
+          <div class="card">
+            <div>
+              <center>
+                <h1>SERVICIOS</h1>
+              </center>
+              
+            </div>
+            <center>
+              <h1>300</h1>
+            </center>
+            
+          </div>
+
+          <div class="card">
+            <div class>
+              <center>
+                <h1>USUARIOS</h1>
+            
+              </center>
+            
+            </div>
+            <center>
+              <h1>3000</h1>
+            </center>
+            
+          </div>
+
+          <div class="card">
+            <div>
+              <center>
+                <h1>ALERTAS</h1>
+              </center>
+            
+            </div>
+            <center>
+              <h1>65</h1>
+            </center>
+          
+          </div>
+
+        </div>   
+        <br>
+        <center>
+          <img src="imagenes/fondo3.jpeg" alt="logo"  width="900PX" height="630px">
+          </center>
+          <br>
+      </main>
+      
+    </div>
+
+  </body>
+</html>

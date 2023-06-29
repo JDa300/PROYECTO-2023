@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <title>Administrar</title>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+      <link rel="stylesheet" href="administrador1.css">
+      <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+  
+<div class="grid-container">
+
+      
+  <header class="header">
+    <div class="menu-icon" onclick="openSidebar()">
+   
+  </header>
+  <!--Barra lateral-->
+  <aside id="sidebar">
+    <div class="sidebar-title">
+      <div class="sidebar-brand">
+        <center>
+        <img src="imagenes/logo1.png" alt="logo"  width="160PX" height="120px">
+        </center>
+        <br>
+        <span></span> LERIUS_BARBER
+      </div>
+      <span class="material-icons-outlined" onclick="closeSidebar()">close</span>
+      
+    </div>
+    
+    <ul class="sidebar-list">
+      <li class="sidebar-list-item" onclick="window.location.href='dashboard.html'">
+      
+          Panel de Control
+        </a>
+      </li>
+      
+      <li class="sidebar-list-item" onclick="window.location.href='administrador1.html'">
+        
+         Crear Empleado
+        </a>
+      </li>
+
+  
+      <li class="sidebar-list-item" onclick="window.location.href='encargado.html'">
+        
+          Actualizar Producto
+        </a>
+      </li>
+      <li class="sidebar-list-item" onclick="window.location.href='listados.html'"> 
+        
+          Generar Informes
+        </a>
+      </li>
+     
+      <li class="sidebar-list-item" onclick="window.location.href='barberia.html'">
+        
+            </span> Cerrar Sesión
+        </a>
+      </li>
+    </ul>
+  </aside>
+  <!--acaba la barra lateral-->
+      <main class="main-container">
+
+  <section class="login" id="login">
+   <div class="heading">
+      <h3>Crear Empleado</h3>
+   </div>
+
+    <center><div class="logins">
+       <form action="guardar.php" method="post" class="login-form">
+        <img src="imagenes/WhatsApp Image 2023-03-02 at 12.35.31 PM.jpeg" width="160PX" height="120px">
+         <h1>seleccione tipo de documento:</h1>
+         <select name="fk_id_documento[]" required class="btn">
+         <option value="1">CC</option>	
+         <option value="2">TI</option>	
+         <option value="3">CE</option>				
+         </select>
+         <br>
+         <br>
+         <input type="text" name="documento" placeholder="Documento nuevo empleado" required class="btn">
+         <br>
+         <br>
+         <input type="text" name="nombre" placeholder="Nombre nuevo empleado" required class="btn">
+         <br>	
+         <br>
+         <input type="text" name="apellido" placeholder="Apellido nuevo empleado" required class="btn">
+         <br>
+         <br>
+         <input type="email" name="mail"  placeholder="Correo nuevo empleado" required class="btn">
+         <br>
+         <br>
+         <h1>seleccione el perfil del empleado:</h1>
+         <select name="fk_perfil[]" required class="btn">
+         <option value="1">administrador</option>	
+         <option value="3">encargado</option>					
+         </select>
+         <br>
+         <br>
+         <input type="text" name="usuario" placeholder="Usuario nuevo empleado" required class="btn">
+         <br>
+         <br>
+         <input type="text" name="pass" placeholder="Contraseña nuevo usuario" required class="btn">
+         <br>
+         <br>
+         <center><input type="submit" value="Guardar Empleado" class="btn"></center>
+      </main>
+
+   </div>
+       
+      
+        </form>
+    </div></center>
+  </section>
+
+
+</body>
+</html>
